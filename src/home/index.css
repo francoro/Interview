@@ -1,0 +1,21 @@
+.app {
+  margin: 20px
+}
+
+.filters-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-name, .input-age {
+  height: 22px;
+  width: 200px;
+  border-radius: 2px;
+  border: 1px solid #999
+}
+
+.custom-selectfield > div:nth-child(2) {
+  margin-top: -6px !important;
+}
